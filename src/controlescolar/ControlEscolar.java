@@ -36,22 +36,27 @@ public class ControlEscolar {
         
         Edificio CampusI = new Edificio ();
         CampusI.setCampus("En campus I");
-        CampusI.setArea("Enfermería");
+        CampusI.setArea("Laboratorio");
         CampusI.setEnergía_elecric(true);
         CampusI.setMts2(500);
         System.out.println(CampusI.toString());
+        CampusI.condiciones();
         
-        Edificio CampusII = new Edificio ("En campus II","Preparatoria Dr. Nazario Victor Montejo Godoy",true,50);
+        Edificio CampusII = new Edificio ("En campus II","salones",true,50);
         System.out.println(CampusII.toString());
+        CampusII.capacidad();
         
-        Edificio CampusIII = new Edificio ("En campus III","Medicina",true,80);
+        Edificio CampusIII = new Edificio ("En campus III","biblioteca",true,80);
         System.out.println(CampusIII.toString());
+        CampusIII.estado();
         
-        Edificio CampusIV = new Edificio ("En campus IV","Ciencias Agropecuarias",false,100);
+        Edificio CampusIV = new Edificio ("En campus IV","Cancha",false,100);
         System.out.println(CampusIV.toString());
+        CampusIV.capacidad();
         
-        Edificio CampusV = new Edificio ("En campus V","Ingeniería",true,90);
+        Edificio CampusV = new Edificio ("En campus V","Computo",true,90);
         System.out.println(CampusV.toString());
+        CampusV.condiciones();
 
     }
 
