@@ -12,7 +12,7 @@ package controlescolar;
  */
 public class ControlEscolar {
     public static void main(String[] args) {
-        
+        System.out.println("----------------------PERSONAS--------------------");
         Personas Alumno = new Personas();
         Alumno.setTipo("Alumno");
         Alumno.setNombre("Angel");
@@ -42,19 +42,19 @@ public class ControlEscolar {
         System.out.println(CampusI.toString());
         CampusI.condiciones();
         
-        Edificio CampusII = new Edificio ("En campus II","salones",true,50);
+        Edificio CampusII = new Edificio ("campus II","salones",true,50);
         System.out.println(CampusII.toString());
         CampusII.capacidad();
         
-        Edificio CampusIII = new Edificio ("En campus III","biblioteca",true,80);
+        Edificio CampusIII = new Edificio ("campus III","biblioteca",true,80);
         System.out.println(CampusIII.toString());
         CampusIII.estado();
         
-        Edificio CampusIV = new Edificio ("En campus IV","Cancha",false,100);
+        Edificio CampusIV = new Edificio ("campus IV","Cancha",false,100);
         System.out.println(CampusIV.toString());
         CampusIV.capacidad();
         
-        Edificio CampusV = new Edificio ("En campus V","Computo",true,90);
+        Edificio CampusV = new Edificio ("campus V","Computo",true,90);
         System.out.println(CampusV.toString());
         CampusV.condiciones();
 
