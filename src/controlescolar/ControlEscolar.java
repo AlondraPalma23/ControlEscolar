@@ -7,11 +7,17 @@
 package controlescolar;
 
 /**
- * 
+ * proyecto sobre clases de un control escolar
+ * Metodos
+ * @version  1.0
  * @author Alondra Palma
+ * @since Mayo 2021
  */
 public class ControlEscolar {
     public static void main(String[] args) {
+/**
+ * METODOS DE PERSONAS Y EDIFICIOS
+ */        
         System.out.println("----------------------PERSONAS--------------------");
         Personas Alumno = new Personas();
         Alumno.setTipo("Alumno");

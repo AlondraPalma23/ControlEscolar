@@ -7,11 +7,15 @@
 package controlescolar;
 
 /**
- * 
+ * Atributos de la clase personas
+ * @version  1.0
  * @author Alondra Palma
+ * @since Mayo 2021
  */
 public class Personas {
-
+/**
+ * Atributos personas
+ */
     private String Tipo;
     private String Nombre;
     private int Edad;

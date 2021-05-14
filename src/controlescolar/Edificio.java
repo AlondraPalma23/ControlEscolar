@@ -7,8 +7,10 @@
 package controlescolar;
 
 /**
- * 
+ * Atributos de la clase edificios
+ * @version  1.0
  * @author Alondra Palma
+ * @since Mayo 2021
  */
 public class Edificio {
     private String Campus;
@@ -56,6 +58,18 @@ public class Edificio {
 
     public void setMts2(double Mts2) {
         this.Mts2 = Mts2;
+    }
+    
+    public void estado (){
+        System.out.println("El edificio se encuentra ocupado");
+    }
+    
+    public void condiciones (){
+        System.out.println("El edificio se encuentra en remodelación");
+    }
+    
+    public void capacidad (){
+        System.out.println("El edificio tiene una capacidad de 30 personas por salón");
     }
 
     @Override
