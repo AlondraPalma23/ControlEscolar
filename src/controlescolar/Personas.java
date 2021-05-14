@@ -11,6 +11,7 @@ package controlescolar;
  * @version  1.0
  * @author Alondra Palma
  * @since Mayo 2021
+ * 
  */
 public class Personas {
 /**
