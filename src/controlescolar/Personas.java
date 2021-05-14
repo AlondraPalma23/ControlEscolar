@@ -14,7 +14,7 @@ package controlescolar;
  */
 public class Personas {
 /**
- * Atributos personas
+ * Atributos personas control escolar
  */
     private String Tipo;
     private String Nombre;

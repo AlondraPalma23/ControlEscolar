@@ -7,7 +7,7 @@
 package controlescolar;
 
 /**
- * Atributos de la clase edificios
+ * Atributos de la clase edificios control escolar
  * @version  1.0
  * @author Alondra Palma
  * @since Mayo 2021
