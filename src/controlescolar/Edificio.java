@@ -21,6 +21,7 @@ public class Edificio {
     public Edificio() {
     }
 
+    
     public Edificio(String Campus, String Area, boolean Energía_elecric, double Mts2) {
         this.Campus = Campus;
         this.Area = Area;
@@ -77,5 +78,6 @@ public class Edificio {
         return "Edificio{" + "Campus=" + Campus + ", Area=" + Area + ", Energ\u00eda_elecric=" + Energía_elecric + ", Mts2=" + Mts2 + '}';
     }
 
+    
 }
             
